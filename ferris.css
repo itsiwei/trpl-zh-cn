@@ -32,15 +32,7 @@ body.ayu .not_desired_behavior {
   width: 100px;
 }
 
-blockquote {
-  overflow-x: auto;
-}
-
-#menu-bar {
-  position: static;
-}
-
-#menu-bar-sticky-container {
-  transform: none !important;
-  border-bottom-color: #fff !important;
-}
+html,body {overflow-x:hidden;}
+blockquote {overflow-x:auto;}
+#menu-bar {position:static;}
+#menu-bar-sticky-container {transform:none !important;border-bottom-color:#fff !important;}
