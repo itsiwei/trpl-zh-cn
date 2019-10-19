@@ -32,7 +32,11 @@ body.ayu .not_desired_behavior {
   width: 100px;
 }
 
-html,body {overflow-x:hidden;}
-blockquote {overflow-x:auto;}
-#menu-bar {position:static;}
-#menu-bar-sticky-container {transform:none !important;border-bottom-color:#fff !important;}
+body,html{overflow-x:hidden}
+blockquote{overflow-x:auto}
+code{word-break:break-word}
+pre>.buttons button{color:#aaa}
+.content{padding:0 5px}
+:focus{outline:none}
+#menu-bar{position:static}
+#menu-bar-sticky-container{transform:none!important;border-bottom-color:#fff!important}
